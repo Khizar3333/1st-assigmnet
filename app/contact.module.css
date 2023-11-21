@@ -1,0 +1,51 @@
+.form {
+    display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 680px;
+  height: 370px;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  
+  .input,
+  .textarea {
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 30px;
+    font-size: 18px;
+    width: 295px;
+  }
+  .divtext{
+    
+      width: 63%;
+      margin-left: 33px;
+  }
+  .textarea {
+    resize: vertical;
+    min-height: 127px;
+    width: 320px;
+  }
+
+  
+  .button {
+    padding: 14px 16px;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+ 
+  .button:hover {
+    background-color: #0059c1;
+  }
